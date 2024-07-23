@@ -1,0 +1,175 @@
+@media(min-width:1000px) {
+    .mobile{
+        display: none;
+    }
+}
+
+
+
+.heading{
+    width: 100%;
+    display: flex;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.head-title{
+    width: 30%;
+    display: flex;
+}
+
+.head-title .head-title1{
+    padding-top: 0%;
+}
+
+.head-title .head-title2 h2{
+    font-size: 150%;
+    color: rgb(24, 23, 23);
+    padding-top: 0%;
+}
+
+.head-nav{
+    width: 70%;
+    font-size: 150%;
+    text-align: end;
+}
+
+.head-nav ul{
+    display: flex;
+    font-weight: bold;
+}
+
+
+.head-nav ul li{
+    display: inline;
+    width: 14%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+.next{
+    width: 100%;
+    text-align: left;
+}
+
+.next h6{
+    font-size: 100%;
+    color: black;
+}
+
+.next h1{
+    font-size: 150%;
+    color: black;
+    font-weight: bold;
+}
+
+.end{
+    width: 100%;
+    background-image: url(image/full-shot-family-running-meadow_23-2149049202.avif);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    margin-top: 0%;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+
+.end h2{
+    font-size: 150%;
+    color: white;
+    font-weight: bold;
+}
+
+.end p{
+    font-size: 120%;
+    color: white;
+}
+
+.end a{
+    color: white;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 25px;
+    padding: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-size: 150%;
+    margin-top: 3%;
+    background-color: blue;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+@media(max-width:768px) {
+    .desktop{
+        display: none;
+    }
+
+
+   
+
+
+.sec{
+    width: 100%;
+    text-align: left;
+    padding-top: 30%;
+  }
+  
+  .sec h6{
+    font-size: 100%;
+    color: black;
+  }
+  
+  .sec h1{
+    font-size: 150%;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .last{
+    width: 100%;
+    background-image: url(image/full-shot-family-running-meadow_23-2149049202.avif);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    margin-top: 0%;
+    text-align: center;
+    padding-bottom: 4%;
+  }
+  
+  
+  .last h2{
+    font-size: 150%;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .last p{
+    font-size: 120%;
+    color: white;
+  }
+  
+  .last a{
+    color: white;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 25px;
+    padding: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-size: 150%;
+    margin-top: 3%;
+    background-color: blue;
+    padding-left: 2%;
+    padding-right: 2%;
+  } 
+}

@@ -1,0 +1,105 @@
+@media(min-width:1000px) {
+    .mobile{
+        display: none;
+    }
+}
+
+
+.heading{
+    width: 100%;
+    display: flex;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.head-title{
+    width: 30%;
+    display: flex;
+}
+
+.head-title .head-title1{
+    padding-top: 0%;
+}
+
+.head-title .head-title2 h2{
+    font-size: 150%;
+    color: rgb(49, 30, 30);
+    padding-top: 0%;
+}
+
+.head-nav{
+    width: 70%;
+    font-size: 150%;
+    text-align: end;
+}
+
+.head-nav ul{
+    display: flex;
+    font-weight: bold;
+}
+
+.head-nav ul li{
+    display: inline;
+    width: 14%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.next{
+    width: 100%;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    background-color: rgb(35, 35, 71);
+}
+
+.next .next2{
+    width: 90%;
+    text-align: left;
+    line-height: 140%;
+}
+
+.next .next2 h2{
+    font-size: 200%;
+    color: white;
+    font-weight: bold;
+}
+
+.next .next2 p{
+    font-size: 120%;
+    color: white;
+}
+
+
+@media(max-width:768px) {
+    .desktop{
+        display: none;
+    }
+
+    
+
+.last{
+    width: 100%;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    background-color: rgb(35, 35, 71);
+  }
+  
+  .last .last2{
+    width: 90%;
+    text-align: left;
+    line-height: 140%;
+  }
+  
+  .last .last2 h2{
+    font-size: 200%;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .last .last2 p{
+    font-size: 120%;
+    color: white;
+  }
+}
